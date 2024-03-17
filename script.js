@@ -9,3 +9,5 @@ const checkUserInput = () => {
         alert("Please enter a valid number");
     }
 }
+
+convertBtn.addEventListener("click", checkUserInput);
