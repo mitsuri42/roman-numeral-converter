@@ -14,6 +14,11 @@ const checkUserInput = () => {
         alert("Please enter a number greater than or equal to 1");
         return;
     }
+
+    if (number.value >= 4000 ) {
+        alert("Please enter a number less than or equal to 3999");
+        return;
+    }
 }
 
 convertBtn.addEventListener("click", checkUserInput);
