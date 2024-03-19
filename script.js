@@ -19,6 +19,11 @@ const checkUserInput = () => {
         alert("Please enter a number less than or equal to 3999");
         return;
     }
+
+    if (number.value === 9 ) {
+        alert("XI");
+        return;
+    }
 }
 
 convertBtn.addEventListener("click", checkUserInput);
