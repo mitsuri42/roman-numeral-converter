@@ -24,6 +24,11 @@ const checkUserInput = () => {
         alert("XI");
         return;
     }
+
+    if (number.value === 16 ) {
+        alert("XVI");
+        return;
+    }
 }
 
 convertBtn.addEventListener("click", checkUserInput);
