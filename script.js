@@ -29,6 +29,12 @@ const checkUserInput = () => {
         alert("XVI");
         return;
     }
+
+    if (number.value === 3999 ) {
+        alert("MMMCMXCIX");
+        return;
+    }
 }
+
 
 convertBtn.addEventListener("click", checkUserInput);
