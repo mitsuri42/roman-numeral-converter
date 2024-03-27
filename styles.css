@@ -30,7 +30,7 @@ button {
         padding: 4px;
 }
 
-form {
+.container {
     margin: 10px 0;
     min-width: 200px;
     width: fit-content;
@@ -40,10 +40,6 @@ form {
     border: 5px solid var(--orange);
     font-size: 2rem;
     text-align: center;
-}
-
-fieldset {
-  border: none;
 }
 
 input {
