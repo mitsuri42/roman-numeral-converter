@@ -35,7 +35,7 @@ button {
 }
 
 .container {
-  background-color: rgba(211, 211, 211, 0.185);
+  background-color: #d3d3d32f;
   margin: 10px 0;
   min-width: 200px;
   width: fit-content;
@@ -62,7 +62,7 @@ input {
 
 #output {
   color: white;
-    background-color: rgba(211, 211, 211, 0.185);
+    background-color: #d3d3d32f;
     border: 3px solid lightgray;
     font-size: 2.5rem;
     width: 90%;

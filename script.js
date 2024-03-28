@@ -3,18 +3,18 @@ const output = document.getElementById("output");
 const number = document.getElementById("number");
 
 const checkUserInput = () => {
-    const numberInt = parseInt(number.value);
+    const inputNumber = parseInt(number.value);
 
-    if (!number.value || isNaN(numberInt)) {
+    if (!number.value || isNaN(inputNumber)) {
         output.textContent = "Please enter a valid number";
         } else if (number.value >= 4000 ) {
                 output.textContent = "Please enter a number less than or equal to 3999";
         } else {
-            output.textContent = toRoman(number);
+            output.textContent = toRoman(inputNumber);
         }
 }
 
-const toRoman = () => {
+const toRoman = (num) => {
     const romanNumerals = [
         {value: 1000, numeral: 'M'},
         {value: 900, numeral: 'CM'},
