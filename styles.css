@@ -62,14 +62,14 @@ input {
 
 #output {
   color: white;
-    background-color: #d3d3d32f;
-    border: 3px solid lightgray;
-    font-size: 2.5rem;
-    width: 90%;
-    max-width: 500px;
-    min-height: 55px;
-    margin-top: 25px;
-    padding: 15px;
-    overflow-wrap: break-word;
-    text-align: center;
+  background-color: #d3d3d32f;
+  border: 3px solid lightgray;
+  font-size: 2.5rem;
+  width: 90%;
+  max-width: 500px;
+  min-height: 55px;
+  margin-top: 25px;
+  padding: 15px;
+  overflow-wrap: break-word;
+  text-align: center;
 }
